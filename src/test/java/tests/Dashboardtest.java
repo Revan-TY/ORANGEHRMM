@@ -12,6 +12,7 @@ public class Dashboardtest extends BasePage {
 	public void verifyDashboard() {
 		Assert.assertTrue(dp.checkDashboardHeaderIsdisplayed());
 		Reporter.log("verified dashboard", true);
+		
 
 	}
 }
